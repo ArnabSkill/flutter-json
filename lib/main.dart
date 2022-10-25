@@ -30,7 +30,7 @@ class _loadjsonState extends State<loadjson> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
-                            Text("Name: " + data[index]['name'],style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
+                            Text("Name: " + data[index]['name'],style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30)),
                             Text("Price: " + data[index]['price'].toString()),
                             Text("Symbol: " + data[index]['symbol']),
                             Text("%: " + data[index]['percent_change_1h'].toString()),
