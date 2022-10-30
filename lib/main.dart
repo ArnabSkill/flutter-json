@@ -16,7 +16,7 @@ class _loadjsonState extends State<loadjson> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Load local Json APP"),
-        centerTitle: true,
+        centerTitle: false,
       ),
       body: Container(
         child: Center(
